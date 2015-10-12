@@ -4,7 +4,7 @@ A comparison of operating systems written in [Rust](https://rustlang.org).
 
 At the moment there are four open source OS:
 
-- **redox**    ([repository](https://github.com/redox-os/redox) / [homepage](https://redox-os.org/))
+- **redox**    ([repository](https://github.com/redox-os/redox) / [homepage](http://www.redox-os.org/))
 - **reenix**   ([repository](https://github.com/scialex/reenix))
 - **rustboot** ([repository](https://github.com/charliesome/rustboot))
 - **rust-os**  ([repository](https://github.com/thepowersgang/rust_os))
