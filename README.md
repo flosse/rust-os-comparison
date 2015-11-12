@@ -7,17 +7,17 @@ At the moment there are four open source OS:
 - **redox**    ([repository](https://github.com/redox-os/redox) / [homepage](http://www.redox-os.org/))
 - **reenix**   ([repository](https://github.com/scialex/reenix))
 - **rustboot** ([repository](https://github.com/charliesome/rustboot))
-- **rust-os**  ([repository](https://github.com/thepowersgang/rust_os))
+- **Tifflin (rust_os)**  ([repository](https://github.com/thepowersgang/rust_os))
 
 
-|                         Name | redox | reenix                                                | rustboot | rust-os      |
+|                         Name | redox | reenix                                                | rustboot | Tifflin      |
 | ---------------------------- | ----- |------------------------------------------------------ | -------- | ------------ |
 |                  **License** | MIT   | [unknown](https://github.com/scialex/reenix/issues/1) | MIT      | 2-Clause-BSD |
 |            **Architectures** | x86   | [Brown's CS167/9](http://cs.brown.edu/courses/cs167/) | i368     | x86_64/amd64 |
-| **Pure Rust implementation** | yes   | no                                                    | ?        | ?            |
-|                      **GUI** | yes   | no                                                    | no       | no           |
+| **Pure Rust implementation** | yes   | no                                                    | ?        | almost*      |
+|                      **GUI** | yes   | no                                                    | no       | yes          |
 |               **VirtualBox** | yes   | no                                                    | no       | ?            |
-|                     **Qemu** | yes   | yes                                                   | yes      | ?            |
+|                     **Qemu** | yes   | yes                                                   | yes      | yes          |
 
 
 ## Blog posts and papers
