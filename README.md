@@ -14,7 +14,7 @@ At the moment there are four open source OS:
 | ---------------------------- | ----- |------------------------------------------------------ | -------- | ------------ |
 |                  **License** | MIT   | [unknown](https://github.com/scialex/reenix/issues/1) | MIT      | 2-Clause-BSD |
 |            **Architectures** | x86   | [Brown's CS167/9](http://cs.brown.edu/courses/cs167/) | i368     | x86_64/amd64 |
-| **Pure Rust implementation** | yes   | no                                                    | ?        | almost*      |
+| **Pure Rust implementation** | yes   | no                                                    | ?        | *almost*     |
 |                      **GUI** | yes   | no                                                    | no       | yes          |
 |               **VirtualBox** | yes   | no                                                    | no       | ?            |
 |                     **Qemu** | yes   | yes                                                   | yes      | yes          |
