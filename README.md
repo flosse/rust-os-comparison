@@ -24,6 +24,7 @@ At the moment there are four open source OS:
 
 - [A minimal x86 kernel](http://blog.phil-opp.com/rust-os/multiboot-kernel.html)
 - [This Week in Redox 1](http://www.redox-os.org/news/this-week-in-redox-1/)
+- [Redox is Serious](http://dictator.redox-os.org/index.php?controller=post&action=view&id_post=17)
 - [Rust bare metal on ARM microcontroller](http://antoinealb.net/programming/2015/05/01/rust-on-arm-microcontroller.html)
 - [Reenix: Implementing a Unix-Like Operating System in Rust](https://scialex.github.io/reenix.pdf) (PDF)
 - [Experiences Building an OS in Rust](https://mostlytyped.com/posts/experiences-building-an-os-in-ru)
