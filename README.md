@@ -22,7 +22,12 @@ At the moment there are four open source OS:
 
 ## Blog posts and papers
 
-- [A minimal x86 kernel](http://blog.phil-opp.com/rust-os/multiboot-kernel.html)
+- [Writing an OS in Rust](http://os.phil-opp.com/)
+    - [Allocating Frames](http://os.phil-opp.com/allocating-frames.html)
+    - [Printing to Screen](http://os.phil-opp.com/printing-to-screen.html)
+    - [Setup Rust](http://os.phil-opp.com/setup-rust.html)
+    - [Entering Long Mode](http://os.phil-opp.com/entering-longmode.html)
+    - [A minimal x86 kernel](http://blog.phil-opp.com/rust-os/multiboot-kernel.html)
 - [This Week in Redox 1](http://www.redox-os.org/news/this-week-in-redox-1/)
 - [Redox is Serious](http://dictator.redox-os.org/index.php?controller=post&action=view&id_post=17)
 - [Rust bare metal on ARM microcontroller](http://antoinealb.net/programming/2015/05/01/rust-on-arm-microcontroller.html)
