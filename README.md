@@ -2,22 +2,23 @@
 
 A comparison of operating systems written in [Rust](https://rustlang.org).
 
-At the moment there are four open source OS:
+At the moment there are five open source OS:
 
 - **redox**    ([repository](https://github.com/redox-os/redox) / [homepage](http://www.redox-os.org/))
 - **reenix**   ([repository](https://github.com/scialex/reenix))
 - **rustboot** ([repository](https://github.com/charliesome/rustboot))
 - **Tifflin (rust_os)**  ([repository](https://github.com/thepowersgang/rust_os))
+- **bkernel** ([repository](https://github.com/rasendubi/bkernel))
 
 
-|                         Name | redox | reenix                                                | rustboot | Tifflin      |
-| ---------------------------- | ----- |------------------------------------------------------ | -------- | ------------ |
-|                  **License** | MIT   | [unknown](https://github.com/scialex/reenix/issues/1) | MIT      | 2-Clause-BSD |
-|            **Architectures** | x86   | [Brown's CS167/9](http://cs.brown.edu/courses/cs167/) | i368     | x86_64/amd64 |
-| **Pure Rust implementation** | yes   | no                                                    | ?        | *almost*     |
-|                      **GUI** | yes   | no                                                    | no       | yes          |
-|               **VirtualBox** | yes   | no                                                    | no       | ?            |
-|                     **Qemu** | yes   | yes                                                   | yes      | yes          |
+|                         Name | redox | reenix                                                | rustboot | Tifflin      | bkernel      |
+| ---------------------------- | ----- |------------------------------------------------------ | -------- | ------------ | ------------ |
+|                  **License** | MIT   | [unknown](https://github.com/scialex/reenix/issues/1) | MIT      | 2-Clause-BSD | ?            |
+|            **Architectures** | x86   | [Brown's CS167/9](http://cs.brown.edu/courses/cs167/) | i368     | x86_64/amd64 | ?            |
+| **Pure Rust implementation** | yes   | no                                                    | ?        | *almost*     | ?            |
+|                      **GUI** | yes   | no                                                    | no       | yes          | no           |
+|               **VirtualBox** | yes   | no                                                    | no       | ?            | no           |
+|                     **Qemu** | yes   | yes                                                   | yes      | yes          | no           |
 
 
 ## Blog posts and papers
@@ -43,3 +44,4 @@ At the moment there are four open source OS:
     - [1: Low-level CPU I/O ports](http://www.randomhacks.net/2015/11/09/bare-metal-rust-cpu-port-io/)
 - [Running Rust on the Rumprun unikernel](https://gandro.github.io/2015/09/27/rust-on-rumprun/)
 - [Making Popcorn: Adding a disk to a Rust Rumprun Unikernel](https://polyfractal.com/post/adding-a-disk-to-a-rust-rumprun-unikernel/)
+- [bkernel: a Rust Operating System](http://www.alexeyshmalko.com/2015/bkernel-a-rust-operating-system/)
