@@ -11,14 +11,14 @@ At the moment there are five open source OS:
 - **bkernel** ([repository](https://github.com/rasendubi/bkernel))
 
 
-|                         Name | redox | reenix                                                | rustboot | Tifflin      | bkernel      |
-| ---------------------------- | ----- |------------------------------------------------------ | -------- | ------------ | ------------ |
-|                  **License** | MIT   | [unknown](https://github.com/scialex/reenix/issues/1) | MIT      | 2-Clause-BSD | ?            |
-|            **Architectures** | x86   | [Brown's CS167/9](http://cs.brown.edu/courses/cs167/) | i368     | x86_64/amd64 | ?            |
-| **Pure Rust implementation** | yes   | no                                                    | ?        | *almost*     | ?            |
-|                      **GUI** | yes   | no                                                    | no       | yes          | no           |
-|               **VirtualBox** | yes   | no                                                    | no       | ?            | no           |
-|                     **Qemu** | yes   | yes                                                   | yes      | yes          | no           |
+|                         Name | redox | reenix                                                | rustboot | Tifflin      | bkernel                    |
+| ---------------------------- | ----- |------------------------------------------------------ | -------- | ------------ | -------------------------- |
+|                  **License** | MIT   | [unknown](https://github.com/scialex/reenix/issues/1) | MIT      | 2-Clause-BSD | GPL with linking exception |
+|            **Architectures** | x86   | [Brown's CS167/9](http://cs.brown.edu/courses/cs167/) | i368     | x86_64/amd64 | ARM                        |
+| **Pure Rust implementation** | yes   | no                                                    | ?        | *almost*     | yes                        |
+|                      **GUI** | yes   | no                                                    | no       | yes          | no                         |
+|               **VirtualBox** | yes   | no                                                    | no       | ?            | no                         |
+|                     **Qemu** | yes   | yes                                                   | yes      | yes          | no                         |
 
 
 ## Blog posts and papers
