@@ -14,7 +14,7 @@ At the moment there are five open source OS:
 |                         Name | redox | reenix                                                | rustboot | Tifflin      | bkernel                    |
 | ---------------------------- | ----- |------------------------------------------------------ | -------- | ------------ | -------------------------- |
 |                  **License** | MIT   | [unknown](https://github.com/scialex/reenix/issues/1) | MIT      | 2-Clause-BSD | GPL with linking exception |
-|            **Architectures** | x86   | [Brown's CS167/9](http://cs.brown.edu/courses/cs167/) | i368     | x86_64/amd64 | ARM                        |
+|            **Architectures** | x86   | [Brown's CS167/9](http://cs.brown.edu/courses/cs167/) | i386     | x86_64/amd64 | ARM                        |
 | **Pure Rust implementation** | yes   | no                                                    | ?        | *almost*     | yes                        |
 |                      **GUI** | yes   | no                                                    | no       | yes          | no                         |
 |               **VirtualBox** | yes   | no                                                    | no       | ?            | no                         |
