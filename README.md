@@ -4,21 +4,22 @@ A comparison of operating systems written in [Rust](https://rustlang.org).
 
 At the moment there are five open source OS:
 
-- **redox**    ([repository](https://github.com/redox-os/redox) / [homepage](http://www.redox-os.org/))
-- **reenix**   ([repository](https://github.com/scialex/reenix))
-- **rustboot** ([repository](https://github.com/charliesome/rustboot))
-- **Tifflin (rust_os)**  ([repository](https://github.com/thepowersgang/rust_os))
-- **bkernel** ([repository](https://github.com/rasendubi/bkernel))
+- **redox**             ([repository](https://github.com/redox-os/redox) / [homepage](http://www.redox-os.org/))
+- **reenix**            ([repository](https://github.com/scialex/reenix))
+- **rustboot**          ([repository](https://github.com/charliesome/rustboot))
+- **Tifflin (rust_os)** ([repository](https://github.com/thepowersgang/rust_os))
+- **bkernel**           ([repository](https://github.com/rasendubi/bkernel))
+- **intermezzOS**       ([repository](https://github.com/intermezzos/kernel))
 
 
-|                         Name | redox | reenix                                                | rustboot | Tifflin      | bkernel                    |
-| ---------------------------- | ----- |------------------------------------------------------ | -------- | ------------ | -------------------------- |
-|                  **License** | MIT   | [unknown](https://github.com/scialex/reenix/issues/1) | MIT      | 2-Clause-BSD | GPL with linking exception |
-|            **Architectures** | x86   | [Brown's CS167/9](http://cs.brown.edu/courses/cs167/) | i386     | x86_64/amd64 | ARM                        |
-| **Pure Rust implementation** | yes   | no                                                    | ?        | *almost*     | yes                        |
-|                      **GUI** | yes   | no                                                    | no       | yes          | no                         |
-|               **VirtualBox** | yes   | no                                                    | no       | ?            | no                         |
-|                     **Qemu** | yes   | yes                                                   | yes      | yes          | no                         |
+|                         Name | redox | reenix                                                | rustboot | Tifflin      | bkernel                    | intermezzOS    |
+| ---------------------------- | ----- |------------------------------------------------------ | -------- | ------------ | -------------------------- | -------------- |
+|                  **License** | MIT   | [unknown](https://github.com/scialex/reenix/issues/1) | MIT      | 2-Clause-BSD | GPL with linking exception | Apache 2 / MIT |
+|            **Architectures** | x86   | [Brown's CS167/9](http://cs.brown.edu/courses/cs167/) | i386     | x86_64/amd64 | ARM                        | x86_64         |
+| **Pure Rust implementation** | yes   | no                                                    | ?        | *almost*     | yes                        | no             |
+|                      **GUI** | yes   | no                                                    | no       | yes          | no                         | no             |
+|               **VirtualBox** | yes   | no                                                    | no       | ?            | no                         | no             |
+|                     **Qemu** | yes   | yes                                                   | yes      | yes          | no                         | yes            |
 
 
 ## Blog posts and papers
