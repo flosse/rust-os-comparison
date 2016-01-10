@@ -61,3 +61,5 @@ It comes with a window manager as well as basic applications like an
 - [Rust bare metal on ARM microcontroller](http://antoinealb.net/programming/2015/05/01/rust-on-arm-microcontroller.html)
 - [Blinking an LED with Rust on a Beaglebone Black](http://theotherandygrove.com/blinking-an-led-with-rust-on-a-beaglebone-black/)
 - [Zinc goals redefined and extended](http://zinc.rs/blog/#/2014/07/14/zinc-goals/)
+- [Rust on an Arduino Uno](http://jakegoulding.com/blog/2016/01/02/rust-on-an-arduino-uno/)
+- [Rust on Arduino Due](http://de.slideshare.net/kellogh/glue-con14)
