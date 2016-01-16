@@ -51,6 +51,7 @@ It comes with a window manager as well as basic applications like an
 - [bkernel: a Rust Operating System](http://www.alexeyshmalko.com/2015/bkernel-a-rust-operating-system/)
 - [(x86_64) Why are platform features such as the red zone enabled by default?](https://internals.rust-lang.org/t/x86-64-why-are-platform-features-such-as-the-red-zone-enabled-by-default/)
 - [Operating system development wiki](https://github.com/rust-lang/rust-wiki-backup/blob/master/Operating-system-development.md)
+- [Create a secure POSIX-compatible userland on top of seL4](https://robigalia.org/)
 
 ### Embedded Systems
 
@@ -63,3 +64,4 @@ It comes with a window manager as well as basic applications like an
 - [Zinc goals redefined and extended](http://zinc.rs/blog/#/2014/07/14/zinc-goals/)
 - [Rust on an Arduino Uno](http://jakegoulding.com/blog/2016/01/02/rust-on-an-arduino-uno/)
 - [Rust on Arduino Due](http://de.slideshare.net/kellogh/glue-con14)
+- [Raspberry Pi Bare Metal Programming with Rust](https://blog.thiago.me/raspberry-pi-bare-metal-programming-with-rust/)
