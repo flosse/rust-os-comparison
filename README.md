@@ -31,7 +31,7 @@ It comes with a window manager as well as basic applications like an
 |                  **Active?** | yes                | no                                                    | no       | ?            | yes            | yes                        | yes           | no          |
 |                   **Target** | General purpose    | PoC                                                   | PoC      | ?            | ?              | Embedded devices           | PoC           | ?           |
 |                **Userpace?** | yes                | no                                                    | no       | no           | ?              | no                         | no            | no          |
-|               **Filesystem** | [ZFS](https://github.com/redox-os/zfs)/[RedoxFS](https://github.com/redox-os/redoxfs | ? | no | no   | ISO9660        | ?                          | no            | ?           |
+|               **Filesystem** | [ZFS](https://github.com/redox-os/zfs)/[RedoxFS](https://github.com/redox-os/redoxfs) | ? | no | no  | ISO9660        | ?                          | no            | ?           |
 
 Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 userspace, written in Rust.
 
