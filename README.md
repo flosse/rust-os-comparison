@@ -18,16 +18,20 @@ It comes with a window manager as well as basic applications like an
 - **Quasar**            ([repository](https://github.com/LeoTestard/Quasar))
 
 
-|                         Name | redox | reenix                                                | rustboot | RustOS       | Tifflin      | bkernel                    | intermezzOS | Quasar      |
-| ---------------------------- | ----- |------------------------------------------------------ | -------- | --------     | ------------ | -------------------------- | ------------| ------------|
-|                  **License** | MIT   | [unknown](https://github.com/scialex/reenix/issues/1) | MIT      | APL 2 / MIT  | 2-Clause-BSD | GPL with linking exception | APL 2 / MIT | ?           |
-|            **Architectures** | x86   | [Brown's CS167/9](http://cs.brown.edu/courses/cs167/) | i386     | i386         | x86_64/amd64 | ARM                        | x86_64      | x86_64      |
-| **Pure Rust implementation** | yes   | no                                                    | ?        | ?            | *almost*     | yes                        | no          | ?           |
-|                      **GUI** | yes   | no                                                    | no       | no           | yes          | no                         | no          | no          |
-|               **VirtualBox** | yes   | no                                                    | no       | no           | ?            | no                         | no          | no          |
-|                     **Qemu** | yes   | yes                                                   | yes      | yes          | yes          | no                         | yes         | yes         |
-|             **Contributors** | 29    | 3                                                     | 9        | 10           | 1            | 3                          | 4           | 1           |
+|                         Name | redox              | reenix                                                | rustboot | RustOS       | Tifflin        | bkernel                    | intermezzOS   | Quasar      |
+| ---------------------------- | ------------------ |------------------------------------------------------ | -------- | ------------ | -------------- | -------------------------- | --------------| ------------|
+|            **Architectures** | x86 and x86_64     | [Brown's CS167/9](http://cs.brown.edu/courses/cs167/) | i386     | i386         | x86_64/amd64   | ARM                        | x86_64        | x86_64      |
+| **Pure Rust implementation** | yes                | no                                                    | ?        | ?            | *almost*       | yes                        | no            | ?           |
+|                  **Active?** | yes                | no                                                    | no       | ?            | yes            | yes                        | yes           | no          |
+|      **Kernel architecture** | Microkernel        | Monolithic (current state)                            | None     | ?            | Monolithic     | ?                          | ?             | ?           |
+|                   **Target** | General purpose    | PoC                                                   | PoC      | ?            | ?              | Embedded devices           | PoC           | ?           |
+|                **Userpace?** | yes                | no                                                    | no       | no           | ?              | no                         | no            | no          |
+|            **Optional GUI?** | yes                | no                                                    | no       | no           | yes            | no                         | no            | no          |
+|             **Contributors** | 30+                | 3                                                     | 9        | 10           | 1              | 3                          | 4             | 1           |
+|               **Filesystem** | [ZFS](https://github.com/redox-os/zfs)/[RedoxFS](https://github.com/redox-os/redoxfs) | ? | no | no  | ISO9660        | ?                          | no            | ?           |
+|                  **License** | MIT                | [unknown](https://github.com/scialex/reenix/issues/1) | MIT      | APL 2 / MIT  | 2-Clause-BSD   | GPL with linking exception | APL 2 / MIT   | ?           |
 
+Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 userspace, written in Rust.
 
 ## Blog posts and papers
 
