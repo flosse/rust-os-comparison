@@ -52,6 +52,7 @@ It comes with a window manager as well as basic applications like an
 - [(x86_64) Why are platform features such as the red zone enabled by default?](https://internals.rust-lang.org/t/x86-64-why-are-platform-features-such-as-the-red-zone-enabled-by-default/)
 - [Operating system development wiki](https://github.com/rust-lang/rust-wiki-backup/blob/master/Operating-system-development.md)
 - [Create a secure POSIX-compatible userland on top of seL4](https://robigalia.org/)
+- [Betriebssystem Redox in Rust geschrieben](http://www.pro-linux.de/news/1/23383/betriebssystem-redox-in-rust-geschrieben.html) (German)
 
 ### Embedded Systems
 
