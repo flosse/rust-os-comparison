@@ -27,7 +27,7 @@ It comes with a window manager as well as basic applications like an
 |                   **Target** | General purpose    | PoC                                                   | PoC      | ?            | ?              | Embedded devices           | PoC           | ?           |
 |                **Userpace?** | yes                | no                                                    | no       | no           | ?              | no                         | no            | no          |
 |            **Optional GUI?** | yes                | no                                                    | no       | no           | yes            | no                         | no            | no          |
-|             **Contributors** | 30+                | 3                                                     | 9        | 10           | 1              | 3                          | 4             | 1           |
+|             **Contributors** | 40+                | 3                                                     | 9        | 10           | 1              | 3                          | 4             | 1           |
 |               **Filesystem** | [ZFS](https://github.com/redox-os/zfs)/[RedoxFS](https://github.com/redox-os/redoxfs) | ? | no | no  | ISO9660        | ?                          | no            | ?           |
 |                  **License** | MIT                | [unknown](https://github.com/scialex/reenix/issues/1) | MIT      | APL 2 / MIT  | 2-Clause-BSD   | GPL with linking exception | APL 2 / MIT   | ?           |
 
