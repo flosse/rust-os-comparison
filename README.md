@@ -35,6 +35,7 @@ Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 us
 
 ## Blog posts and papers
 
+- [This week in intermezzOS 1](https://intermezzos.github.io/blog/articles/twii1/)
 - [Writing an OS in Rust](http://os.phil-opp.com/)
     - [Allocating Frames](http://os.phil-opp.com/allocating-frames.html)
     - [Printing to Screen](http://os.phil-opp.com/printing-to-screen.html)
@@ -42,6 +43,7 @@ Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 us
     - [Entering Long Mode](http://os.phil-opp.com/entering-longmode.html)
     - [A minimal x86 kernel](http://blog.phil-opp.com/rust-os/multiboot-kernel.html)
     - [Remap the Kernel](http://os.phil-opp.com/remap-the-kernel.html)
+    - [Kernel Heap](http://os.phil-opp.com/kernel-heap.html)
 - [This Week in Redox 1](http://www.redox-os.org/news/this-week-in-redox-1/) / [Redox News](http://www.redox-os.org/news/)
 - [Redox is Serious](http://dictator.redox-os.org/index.php?controller=post&action=view&id_post=17)
 - [Reenix: Implementing a Unix-Like Operating System in Rust](https://scialex.github.io/reenix.pdf) (PDF)
