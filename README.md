@@ -69,6 +69,10 @@ Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 us
 - [Rust bare metal on ARM microcontroller](http://antoinealb.net/programming/2015/05/01/rust-on-arm-microcontroller.html)
 - [Blinking an LED with Rust on a Beaglebone Black](http://theotherandygrove.com/blinking-an-led-with-rust-on-a-beaglebone-black/)
 - [Zinc goals redefined and extended](http://zinc.rs/blog/#/2014/07/14/zinc-goals/)
-- [Rust on an Arduino Uno](http://jakegoulding.com/blog/2016/01/02/rust-on-an-arduino-uno/)
+- Rust on an Arduino Uno
+  - [Part 1](http://jakegoulding.com/blog/2016/01/02/rust-on-an-arduino-uno/)
+  - [Part 2](http://jakegoulding.com/blog/2016/01/17/rust-on-an-arduino-uno-part-2/)
+  - [Part 3](http://jakegoulding.com/blog/2016/01/24/rust-on-an-arduino-uno-part-3/)
+  - [Part 4](http://jakegoulding.com/blog/2016/05/12/rust-on-an-arduino-uno-part-4/)
 - [Rust on Arduino Due](http://de.slideshare.net/kellogh/glue-con14)
 - [Raspberry Pi Bare Metal Programming with Rust](https://blog.thiago.me/raspberry-pi-bare-metal-programming-with-rust/)
