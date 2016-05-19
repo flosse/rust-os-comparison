@@ -75,4 +75,5 @@ Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 us
   - [Part 3](http://jakegoulding.com/blog/2016/01/24/rust-on-an-arduino-uno-part-3/)
   - [Part 4](http://jakegoulding.com/blog/2016/05/12/rust-on-an-arduino-uno-part-4/)
 - [Rust on Arduino Due](http://de.slideshare.net/kellogh/glue-con14)
+- http://embedded.hannobraun.de/
 - [Raspberry Pi Bare Metal Programming with Rust](https://blog.thiago.me/raspberry-pi-bare-metal-programming-with-rust/)
