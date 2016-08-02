@@ -35,7 +35,10 @@ Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 us
 
 ## Blog posts and papers
 
-- [This week in intermezzOS 1](https://intermezzos.github.io/blog/articles/twii1/)
+- This week in intermezzOS:
+  - [1](https://intermezzos.github.io/blog/articles/twii1/),
+  - [2](https://intermezzos.github.io/blog/articles/twii2/)
+
 - [Writing an OS in Rust](http://os.phil-opp.com/)
     - [Allocating Frames](http://os.phil-opp.com/allocating-frames.html)
     - [Printing to Screen](http://os.phil-opp.com/printing-to-screen.html)
