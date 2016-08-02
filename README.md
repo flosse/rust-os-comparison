@@ -80,3 +80,4 @@ Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 us
 - [Rust on Arduino Due](http://de.slideshare.net/kellogh/glue-con14)
 - http://embedded.hannobraun.de/
 - [Raspberry Pi Bare Metal Programming with Rust](https://blog.thiago.me/raspberry-pi-bare-metal-programming-with-rust/)
+- [Running Rust code on a BBC micro:bit micro-controller](https://github.com/SimonSapin/rust-on-bbc-microbit)
