@@ -79,6 +79,7 @@ Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 us
 
 ### Embedded Systems
 
+- [Safer microcontrollers almost here](http://dylanmckay.io/blog/rust/avr/llvm/2017/02/09/safer-microcontrollers-almost-here.html)
 - [Exploring ARM inline assembly in Rust](http://embed.rs/articles/2016/arm-inline-assembly-rust/)
 - Bare Metal Rust
     - [3: Configure your PIC to handle interrupts correctly](http://www.randomhacks.net/2015/11/16/bare-metal-rust-configure-your-pic-interrupts/)
