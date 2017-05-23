@@ -37,6 +37,8 @@ Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 us
 
 ## Blog posts and papers
 
+-[Writing the second video game for the Micro:bit in Rust](https://hackernoon.com/writing-the-second-video-game-for-the-micro-bit-in-rust-3cd8b5ab22d3)
+
 - Talking Tock Week
     - [5](http://www.tockos.org/blog/2016/talking-tock-5/),
     - [4](http://www.tockos.org/blog/2016/talking-tock-4/),
