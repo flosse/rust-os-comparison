@@ -9,30 +9,30 @@ It comes with a window manager as well as basic applications like an
 [editor](https://github.com/redox-os/sodium) and a file manager.
 
 - **redox**             ([repository](https://github.com/redox-os/redox) / [homepage](http://www.redox-os.org/))
+- **Tock**              ([repository](https://github.com/helena-project/tock) / [homepage](http://www.tockos.org/))
+- **intermezzOS**       ([repository](https://github.com/intermezzos/kernel) / [homepage](http://intermezzos.github.io/))
 - **reenix**            ([repository](https://github.com/scialex/reenix))
 - **rustboot**          ([repository](https://github.com/charliesome/rustboot))
 - **RustOS**            ([repository](https://github.com/ryanra/RustOS))
 - **QuiltOS**           ([repository](https://github.com/QuiltOS/QuiltOS))
 - **Tifflin (rust_os)** ([repository](https://github.com/thepowersgang/rust_os))
 - **bkernel**           ([repository](https://github.com/rasendubi/bkernel))
-- **intermezzOS**       ([repository](https://github.com/intermezzos/kernel) / [homepage](http://intermezzos.github.io/))
 - **Quasar**            ([repository](https://github.com/LeoTestard/Quasar))
-- **Tock**              ([repository](https://github.com/helena-project/tock) / [homepage](http://www.tockos.org/))
 - **SOS**               ([repository](https://github.com/hawkw/sos-kernel))
 
 
-|                         Name | redox              | reenix                                                | rustboot | RustOS       | RustOS       | Tifflin        | bkernel                    | intermezzOS   | Quasar      | Tock        | SOS        |
-| ---------------------------- | ------------------ |------------------------------------------------------ | -------- | ------------ | ------------ | -------------- | -------------------------- | --------------| ------------| ------------| ------------
-|            **Architectures** | x86 and x86_64     | [Brown's CS167/9](http://cs.brown.edu/courses/cs167/) | i386     | i386         | i386         | x86_64/amd64   | ARM                        | x86_64        | x86_64      | Cortex M    | x86_64
-| **Pure Rust implementation** | yes                | no                                                    | ?        | ?            | ?            | *almost*       | yes                        | no            | ?           |             | yes
-|                  **Active?** | yes                | no                                                    | no       | yes          | yes          | yes            | yes                        | yes           | no          | yes         | yes
-|      **Kernel architecture** | Microkernel        | Monolithic (current state)                            | None     | None         | None         | Monolithic     | ?                          | ?             | ?           |             | Microkernel
-|                   **Target** | General purpose    | PoC                                                   | PoC      | PoC          | PoC          | ?              | Embedded devices           | PoC           | ?           |             | PoC
-|                **Userpace?** | yes                | no                                                    | no       | no           | no           | ?              | no                         | no            | no          |             | no
-|            **Optional GUI?** | yes                | no                                                    | no       | no           | no           | yes            | no                         | no            | no          | no          | no
-|             **Contributors** | 40+                | 3                                                     | 9        | 10           | 10           | 1              | 3                          | 4             | 1           | 14          | 4
-|               **Filesystem** | [ZFS](https://github.com/redox-os/zfs)/[RedoxFS](https://github.com/redox-os/redoxfs) | ? | no | no  | ? | no | no  | ISO9660        | ?                          | no            | ?           |             | ?
-|                  **License** | MIT                | [unknown](https://github.com/scialex/reenix/issues/1) | MIT      | APL 2 / MIT  | APL 2 / MIT  | 2-Clause-BSD   | GPL with linking exception | APL 2 / MIT   | ?           | APL 2 / MIT | MIT
+|                         Name | redox              | reenix                                                | rustboot | RustOS       | Tifflin        | bkernel                    | intermezzOS   | Quasar      | Tock        | SOS         |
+| ---------------------------- | ------------------ |------------------------------------------------------ | -------- | ------------ | -------------- | -------------------------- | --------------| ------------| ------------| ------------|
+|            **Architectures** | x86 and x86_64     | [Brown's CS167/9](http://cs.brown.edu/courses/cs167/) | i386     | i386         | x86_64/amd64   | ARM                        | x86_64        | x86_64      | Cortex M    | x86_64      |
+| **Pure Rust implementation** | yes                | no                                                    | ?        | ?            | *almost*       | yes                        | no            | ?           |             | yes         |
+|                  **Active?** | yes                | no                                                    | no       | yes          | yes            | yes                        | yes           | no          | yes         | yes         |
+|      **Kernel architecture** | Microkernel        | Monolithic (current state)                            | None     | None         | Monolithic     | ?                          | ?             | ?           |             | Microkernel |
+|                   **Target** | General purpose    | PoC                                                   | PoC      | PoC          | ?              | Embedded devices           | PoC           | ?           |             | PoC         |
+|                **Userpace?** | yes                | no                                                    | no       | no           | ?              | no                         | no            | no          |             | no          |
+|            **Optional GUI?** | yes                | no                                                    | no       | no           | yes            | no                         | no            | no          | no          | no          |
+|             **Contributors** | 50                 | 3                                                     | 8        | 10           | 1              | 4                          | 18            | 2           | 40          | 3           |
+|               **Filesystem** | [ZFS](https://github.com/redox-os/zfs)/[RedoxFS](https://github.com/redox-os/redoxfs) | ? | no | no  | ISO9660        | ?                          | no            | ?           |             | ?           |
+|                  **License** | MIT                | [unknown](https://github.com/scialex/reenix/issues/1) | MIT      | APL 2 / MIT  | 2-Clause-BSD   | GPL with linking exception | APL 2 / MIT   | ?           | APL 2 / MIT | MIT         |
 Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 userspace, written in Rust.
 
 ## Blog posts and papers
