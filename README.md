@@ -20,7 +20,7 @@ It comes with a window manager as well as basic applications like an
 - **Quasar**            ([repository](https://github.com/LeoTestard/Quasar))
 - **SOS**               ([repository](https://github.com/hawkw/sos-kernel))
 
-| Name            | Architectures   | Pure Rust implementation | Active? | Kernel architecture        | Target           | Userpace? | Optional GUI? | Contributors | Filesystem  | License                    |
+| Name            | Architectures   | Pure Rust                | Active? | Kernel architecture        | Target           | Userpace? | Optional GUI? | Contributors | Filesystem  | License                    |
 |-----------------|-----------------|--------------------------|---------|----------------------------|------------------|-----------|---------------|--------------|-------------|----------------------------|
 | **redox**       | x86 and x86_64  | yes                      | yes     | Microkernel                | General purpose  | yes       | yes           | 50           | [ZFS]/[RedoxFS] | MIT                        |
 | **Tock**        | Cortex M        |                          | yes     |                            |                  |           | no            | 40           |             | APL 2 / MIT                |
