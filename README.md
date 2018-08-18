@@ -25,7 +25,7 @@ It comes with a window manager as well as basic applications like an
 
 | Name            | Architectures   | Pure Rust                | Active? | Kernel architecture        | Target           | Userpace? | Optional GUI? | Contributors | Filesystem  | License                    |
 |-----------------|-----------------|--------------------------|---------|----------------------------|------------------|-----------|---------------|--------------|-------------|----------------------------|
-| **redox**       | x86 and x86_64  | yes                      | yes     | Microkernel                | General purpose  | yes       | yes           | 50           | [ZFS]/[RedoxFS] | MIT                        |
+| **redox**       | x86 and x86_64  | yes                      | yes     | Microkernel                | General purpose  | yes       | yes           | 60           | [ZFS]/[RedoxFS]/[FAT32] | MIT                        |
 | **Theseus OS**  | x86_64, ARM WIP | yes                      | yes     | Safe-language SAS/SPL OS[^1] | General + Embedded  | N/A       | yes           | 25           | Custom/FAT32 | MIT                        |
 | **Tock**        | Cortex M        |                          | yes     |                            |                  |           | no            | 40           |             | APL 2 / MIT                |
 | **intermezzOS** | x86_64          | no                       | yes     | ?                          | PoC              | no        | no            | 18           | no          | APL 2 / MIT                |
@@ -43,6 +43,7 @@ Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 us
 [Brown's CS167/9]: http://cs.brown.edu/courses/cs167/
 [ZFS]: https://github.com/redox-os/zfs
 [RedoxFS]: https://github.com/redox-os/redoxfs
+[FAT32]: https://github.com/deepaksirone/redox-loader
 [unknown]: https://github.com/scialex/reenix/issues/1
 [MFS]: https://github.com/vinc/moros/blob/trunk/doc/filesystem.md
 
