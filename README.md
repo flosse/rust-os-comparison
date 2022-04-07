@@ -7,8 +7,10 @@ Most of them are proofs of concepts.
 The only system that goes a step further is **redox**.
 It comes with a window manager as well as basic applications like an
 [editor](https://github.com/redox-os/sodium) and a file manager.
+**Theseus** is approaching maturity with the ability to execute legacy components in a WASM sandboxed environment.
 
 - **redox**             ([repository](https://github.com/redox-os/redox) / [homepage](http://www.redox-os.org/))
+- **Theseus OS**        ([repository](https://github.com/theseus-os/Theseus) / [homepage](https://www.theseus-os.com/))
 - **Tock**              ([repository](https://github.com/helena-project/tock) / [homepage](http://www.tockos.org/))
 - **intermezzOS**       ([repository](https://github.com/intermezzos/kernel) / [homepage](http://intermezzos.github.io/))
 - **reenix**            ([repository](https://github.com/scialex/reenix))
@@ -23,6 +25,7 @@ It comes with a window manager as well as basic applications like an
 | Name            | Architectures   | Pure Rust                | Active? | Kernel architecture        | Target           | Userpace? | Optional GUI? | Contributors | Filesystem  | License                    |
 |-----------------|-----------------|--------------------------|---------|----------------------------|------------------|-----------|---------------|--------------|-------------|----------------------------|
 | **redox**       | x86 and x86_64  | yes                      | yes     | Microkernel                | General purpose  | yes       | yes           | 50           | [ZFS]/[RedoxFS] | MIT                        |
+| **Theseus OS**  | x86_64, ARM WIP | yes                      | yes     | Safe-language SAS/SPL OS[^1] | General + Embedded  | N/A       | yes           | 25           | Custom/FAT32 | MIT                        |
 | **Tock**        | Cortex M        |                          | yes     |                            |                  |           | no            | 40           |             | APL 2 / MIT                |
 | **intermezzOS** | x86_64          | no                       | yes     | ?                          | PoC              | no        | no            | 18           | no          | APL 2 / MIT                |
 | **RustOS**      | i386            | ?                        | yes     | None                       | PoC              | no        | no            | 10           | no          | APL 2 / MIT                |
@@ -40,6 +43,8 @@ Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 us
 [RedoxFS]: https://github.com/redox-os/redoxfs
 [unknown]: https://github.com/scialex/reenix/issues/1
 
+[^1]: Theseus is a safe-language OS that runs all components within a [Single Address Space (SAS)](https://en.wikipedia.org/wiki/Single_address_space_operating_system) and Single Privilege Level (SPL).
+
 ## Blog posts and papers
 
 -[Writing the second video game for the Micro:bit in Rust](https://hackernoon.com/writing-the-second-video-game-for-the-micro-bit-in-rust-3cd8b5ab22d3)
@@ -50,6 +55,14 @@ Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 us
     - [3](http://www.tockos.org/blog/2016/talking-tock-3/),
     - [2](http://www.tockos.org/blog/2016/talking-tock-2/),
     - [1](http://www.tockos.org/blog/2016/talking-tock-1/)
+
+- Theseus OS Documents
+    - [Theseus OS Book](https://www.theseus-os.com/Theseus/book/index.html)
+    - [Theseus OS Source Code Documentation](https://www.theseus-os.com/Theseus/doc/___Theseus_Crates___/index.html)
+    - [Theseus OS Conference Publications](https://www.theseus-os.com/Theseus/book/misc/papers_presentations.html)
+    - [Theseus OS source code on GitHub](https://github.com/theseus-os/Theseus)
+    - [Theseus OS Technical Blog](https://www.theseus-os.com/)
+
 
 - [FreeRTOS meets Rust](http://www.hashmismatch.net/freertos-meets-rust/)
 - [Pragmatic Bare Metal Rust](http://www.hashmismatch.net/pragmatic-bare-metal-rust/)
