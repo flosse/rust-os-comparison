@@ -21,6 +21,7 @@ It comes with a window manager as well as basic applications like an
 - **bkernel**           ([repository](https://github.com/rasendubi/bkernel))
 - **Quasar**            ([repository](https://github.com/LeoTestard/Quasar))
 - **SOS**               ([repository](https://github.com/hawkw/sos-kernel))
+- **MOROS**             ([repository](https://github.com/vinc/moros) / [homepage](http://moros.cc/))
 
 | Name            | Architectures   | Pure Rust                | Active? | Kernel architecture        | Target           | Userpace? | Optional GUI? | Contributors | Filesystem  | License                    |
 |-----------------|-----------------|--------------------------|---------|----------------------------|------------------|-----------|---------------|--------------|-------------|----------------------------|
@@ -35,6 +36,7 @@ It comes with a window manager as well as basic applications like an
 | **reenix**      | [Brown's CS167/9] | no                       | no      | Monolithic (current state) | PoC              | no        | no            | 3            | ?           | [unknown]                  |
 | **Quasar**      | x86_64          | ?                        | no      | ?                          | ?                | no        | no            | 2            | ?           | ?                          |
 | **Tifflin**     | x86_64/amd64    | almost                   | yes     | Monolithic                 | ?                | ?         | yes           | 1            | ISO9660     | 2-Clause-BSD               |
+| **MOROS**       | x86_64          | yes                      | yes     | Monolithic                 | General purpose  | limited   | no            | 1            | [MFS]       | MIT                        |
 
 Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 userspace, written in Rust.
 
@@ -42,6 +44,7 @@ Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 us
 [ZFS]: https://github.com/redox-os/zfs
 [RedoxFS]: https://github.com/redox-os/redoxfs
 [unknown]: https://github.com/scialex/reenix/issues/1
+[MFS]: https://github.com/vinc/moros/blob/trunk/doc/filesystem.md
 
 [^1]: Theseus is a safe-language OS that runs all components within a [Single Address Space (SAS)](https://en.wikipedia.org/wiki/Single_address_space_operating_system) and Single Privilege Level (SPL).
 
