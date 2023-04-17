@@ -22,21 +22,24 @@ It comes with a window manager as well as basic applications like an
 - **Quasar**            ([repository](https://github.com/LeoTestard/Quasar))
 - **SOS**               ([repository](https://github.com/hawkw/sos-kernel))
 - **MOROS**             ([repository](https://github.com/vinc/moros) / [homepage](http://moros.cc/))
+- **Fexlix OS**         ([repository](https://github.com/mrgian/felix))
 
-| Name            | Architectures   | Pure Rust                | Active? | Kernel architecture        | Target           | Userpace? | Optional GUI? | Contributors | Filesystem  | License                    |
-|-----------------|-----------------|--------------------------|---------|----------------------------|------------------|-----------|---------------|--------------|-------------|----------------------------|
-| **redox**       | x86 and x86_64  | yes                      | yes     | Microkernel                | General purpose  | yes       | yes           | 60           | [ZFS]/[RedoxFS]/[FAT32] | MIT                        |
-| **Theseus OS**  | x86_64, ARM WIP | yes                      | yes     | Safe-language SAS/SPL OS[^1] | General + Embedded  | N/A       | yes           | 25           | Custom/FAT32 | MIT                        |
-| **Tock**        | Cortex M        |                          | yes     |                            |                  |           | no            | 40           |             | APL 2 / MIT                |
-| **intermezzOS** | x86_64          | no                       | yes     | ?                          | PoC              | no        | no            | 18           | no          | APL 2 / MIT                |
-| **RustOS**      | i386            | ?                        | yes     | None                       | PoC              | no        | no            | 10           | no          | APL 2 / MIT                |
-| **rustboot**    | i386            | ?                        | no      | None                       | PoC              | no        | no            | 8            | no          | MIT                        |
-| **bkernel**     | ARM             | yes                      | yes     | ?                          | Embedded devices | no        | no            | 4            | ?           | GPL with linking exception |
-| **SOS**         | x86_64          | yes                      | yes     | Microkernel                | PoC              | no        | no            | 3            | ?           | MIT                        |
-| **reenix**      | [Brown's CS167/9] | no                       | no      | Monolithic (current state) | PoC              | no        | no            | 3            | ?           | [unknown]                  |
-| **Quasar**      | x86_64          | ?                        | no      | ?                          | ?                | no        | no            | 2            | ?           | ?                          |
-| **Tifflin**     | x86_64/amd64    | almost                   | yes     | Monolithic                 | ?                | ?         | yes           | 1            | ISO9660     | 2-Clause-BSD               |
-| **MOROS**       | x86_64          | yes                      | yes     | Monolithic                 | General purpose  | limited   | no            | 1            | [MFS]       | MIT                        |
+
+| Name            | Architectures     | Pure Rust | Active? | Kernel architecture          | Target              | Userpace? | Optional GUI? | Contributors | Filesystem              | License                    |
+|-----------------|-------------------|-----------|---------|------------------------------|---------------------|-----------|---------------|--------------|-------------------------|----------------------------|
+| **redox**       | x86 and x86_64    | yes       | yes     | Microkernel                  | General purpose     | yes       | yes           | 60           | [ZFS]/[RedoxFS]/[FAT32] | MIT                        |
+| **Theseus OS**  | x86_64, ARM WIP   | yes       | yes     | Safe-language SAS/SPL OS[^1] | General + Embedded  | N/A       | yes           | 25           | Custom/FAT32            | MIT                        |
+| **Tock**        | Cortex M          |           | yes     |                              |                     |           | no            | 40           |                         | APL 2 / MIT                |
+| **intermezzOS** | x86_64            | no        | yes     | ?                            | PoC                 | no        | no            | 18           | no                      | APL 2 / MIT                |
+| **RustOS**      | i386              | ?         | yes     | None                         | PoC                 | no        | no            | 10           | no                      | APL 2 / MIT                |
+| **rustboot**    | i386              | ?         | no      | None                         | PoC                 | no        | no            | 8            | no                      | MIT                        |
+| **bkernel**     | ARM               | yes       | yes     | ?                            | Embedded devices    | no        | no            | 4            | ?                       | GPL with linking exception |
+| **SOS**         | x86_64            | yes       | yes     | Microkernel                  | PoC                 | no        | no            | 3            | ?                       | MIT                        |
+| **reenix**      | [Brown's CS167/9] | no        | no      | Monolithic (current state)   | PoC                 | no        | no            | 3            | ?                       | [unknown]                  |
+| **Quasar**      | x86_64            | ?         | no      | ?                            | ?                   | no        | no            | 2            | ?                       | ?                          |
+| **Tifflin**     | x86_64/amd64      | almost    | yes     | Monolithic                   | ?                   | ?         | yes           | 1            | ISO9660                 | 2-Clause-BSD               |
+| **MOROS**       | x86_64            | yes       | yes     | Monolithic                   | General purpose     | limited   | no            | 1            | [MFS]                   | MIT                        |
+| **Felix OS**    | x86_64            | yes       | yes     | ?                            | General purpose     | ?         | no            | 3            | [FAT16]  Read Only      | MIT                        |
 
 Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 userspace, written in Rust.
 
