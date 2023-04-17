@@ -23,6 +23,7 @@ It comes with a window manager as well as basic applications like an
 - **SOS**               ([repository](https://github.com/hawkw/sos-kernel))
 - **MOROS**             ([repository](https://github.com/vinc/moros) / [homepage](http://moros.cc/))
 - **Fexlix OS**         ([repository](https://github.com/mrgian/felix))
+- **Aero**              ([repository](https://github.com/Andy-Python-Programmer/aero))
 
 
 | Name            | Architectures     | Pure Rust | Active? | Kernel architecture          | Target              | Userpace? | Optional GUI? | Contributors | Filesystem              | License                    |
@@ -40,6 +41,7 @@ It comes with a window manager as well as basic applications like an
 | **Tifflin**     | x86_64/amd64      | almost    | yes     | Monolithic                   | ?                   | ?         | yes           | 1            | ISO9660                 | 2-Clause-BSD               |
 | **MOROS**       | x86_64            | yes       | yes     | Monolithic                   | General purpose     | limited   | no            | 1            | [MFS]                   | MIT                        |
 | **Felix OS**    | x86_64            | yes       | yes     | ?                            | General purpose     | ?         | no            | 3            | [FAT16]  Read Only      | MIT                        |
+| **Aero**        | x86_64            | ?         | yes     | Monolithic                   | General purpose     | ?         | yes           | 10           | ?                       | GPL                        |
 
 Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 userspace, written in Rust.
 
