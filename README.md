@@ -24,6 +24,7 @@ It comes with a window manager as well as basic applications like an
 - **MOROS**             ([repository](https://github.com/vinc/moros) / [homepage](http://moros.cc/))
 - **Fexlix OS**         ([repository](https://github.com/mrgian/felix))
 - **Aero**              ([repository](https://github.com/Andy-Python-Programmer/aero))
+- **Hermit**            ([repository](https://github.com/hermitcore/rusty-hermit))
 
 
 | Name            | Architectures     | Pure Rust | Active? | Kernel architecture          | Target              | Userpace? | Optional GUI? | Contributors | Filesystem              | License                    |
@@ -42,6 +43,8 @@ It comes with a window manager as well as basic applications like an
 | **MOROS**       | x86_64            | yes       | yes     | Monolithic                   | General purpose     | limited   | no            | 1            | [MFS]                   | MIT                        |
 | **Felix OS**    | x86_64            | yes       | yes     | ?                            | General purpose     | ?         | no            | 3            | [FAT16]  Read Only      | MIT                        |
 | **Aero**        | x86_64            | ?         | yes     | Monolithic                   | General purpose     | ?         | yes           | 10           | ?                       | GPL                        |
+| **Hermit**       | x86_64, aarch64| yes         | yes     | Unikernel                    | Cloud and HPC       | no        | no            | >30          | virtiofs                | Apache, BSD                |
+
 
 Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 userspace, written in Rust.
 
