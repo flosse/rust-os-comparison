@@ -42,6 +42,8 @@ It comes with a window manager as well as basic applications like an
 | **MOROS**       | x86_64            | yes       | yes     | Monolithic                   | General purpose     | limited   | no            | 1            | [MFS]                   | MIT                        |
 | **Felix OS**    | x86_64            | yes       | yes     | ?                            | General purpose     | ?         | no            | 3            | [FAT16]  Read Only      | MIT                        |
 | **Aero**        | x86_64            | ?         | yes     | Monolithic                   | General purpose     | ?         | yes           | 10           | ?                       | GPL                        |
+| **Embassy**     | many              | yes       | yes     | embedded framework           | embedded            | n/a       | no            | 388          | ?                       | APL2 / MIT / CC 4.0        |
+| **Hubris**      | many              | yes       | yes     | message passing kernel       | embedded            | n/a       | no            | 50           | ?                       | MPL 2.0                    |
 
 Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 userspace, written in Rust.
 
