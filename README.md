@@ -4,12 +4,12 @@ A comparison of operating systems written in [Rust](https://rustlang.org).
 
 There are several open source operating systems written in Rust.
 Most of them are proofs of concepts.
-The only system that goes a step further is **redox**.
+The only system that goes a step further is **Redox**.
 It comes with a window manager as well as basic applications like an
 [editor](https://github.com/redox-os/sodium) and a file manager.
 **Theseus** is approaching maturity with the ability to execute legacy components in a WASM sandboxed environment.
 
-- **redox**             ([repository](https://github.com/redox-os/redox) / [homepage](http://www.redox-os.org/))
+- **Redox**             ([repository](https://github.com/redox-os/redox) / [homepage](http://www.redox-os.org/))
 - **Theseus OS**        ([repository](https://github.com/theseus-os/Theseus) / [homepage](https://www.theseus-os.com/))
 - **Tock**              ([repository](https://github.com/helena-project/tock) / [homepage](http://www.tockos.org/))
 - **intermezzOS**       ([repository](https://github.com/intermezzos/kernel) / [homepage](http://intermezzos.github.io/))
@@ -30,7 +30,7 @@ It comes with a window manager as well as basic applications like an
 
 | Name            | Architectures     | Pure Rust | Active? | Kernel architecture          | Target              | Userpace? | Optional GUI? | Contributors | Filesystem              | License                    |
 |-----------------|-------------------|-----------|---------|------------------------------|---------------------|-----------|---------------|--------------|-------------------------|----------------------------|
-| **redox**       | x86 and x86_64    | yes       | yes     | Microkernel                  | General purpose     | yes       | yes           | 60           | [ZFS]/[RedoxFS]/[FAT32] | MIT                        |
+| **Redox**       | x86 and x86_64    | yes       | yes     | Microkernel                  | General purpose     | yes       | yes           | 60           | [ZFS]/[RedoxFS]/[FAT32] | MIT                        |
 | **Theseus OS**  | x86_64, ARM WIP   | yes       | yes     | Safe-language SAS/SPL OS[^1] | General + Embedded  | N/A       | yes           | 25           | Custom/FAT32            | MIT                        |
 | **Tock**        | Cortex M          |           | yes     |                              |                     |           | no            | 40           |                         | APL 2 / MIT                |
 | **intermezzOS** | x86_64            | no        | yes     | ?                            | PoC                 | no        | no            | 18           | no                      | APL 2 / MIT                |
