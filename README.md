@@ -25,6 +25,7 @@ It comes with a window manager as well as basic applications like an
 - **Fexlix OS**         ([repository](https://github.com/mrgian/felix))
 - **Aero**              ([repository](https://github.com/Andy-Python-Programmer/aero))
 - **Hermit**            ([repository](https://github.com/hermitcore/rusty-hermit))
+- **Asterinas**         ([repository](https://github.com/asterinas/asterina))
 
 
 | Name            | Architectures     | Pure Rust | Active? | Kernel architecture          | Target              | Userpace? | Optional GUI? | Contributors | Filesystem              | License                    |
@@ -43,8 +44,10 @@ It comes with a window manager as well as basic applications like an
 | **MOROS**       | x86_64            | yes       | yes     | Monolithic                   | General purpose     | limited   | no            | 1            | [MFS]                   | MIT                        |
 | **Felix OS**    | x86_64            | yes       | yes     | ?                            | General purpose     | ?         | no            | 3            | [FAT16]  Read Only      | MIT                        |
 | **Aero**        | x86_64            | ?         | yes     | Monolithic                   | General purpose     | ?         | yes           | 10           | ?                       | GPL                        |
-| **Hermit**       | x86_64, aarch64| yes         | yes     | Unikernel                    | Cloud and HPC       | no        | no            | >30          | virtiofs                | Apache, BSD                |
-
+| **Hermit**      | x86_64, aarch64   | yes       | yes     | Unikernel                    | Cloud and HPC       | no        | no            | >30          | virtiofs                | Apache, BSD                |
+| **Embassy**     | many              | yes       | yes     | embedded framework           | embedded            | n/a       | no            | 388          | ?                       | APL2 / MIT / CC 4.0        |
+| **Hubris**      | many              | yes       | yes     | message passing kernel       | embedded            | n/a       | no            | 50           | ?                       | MPL 2.0                    |
+| **Asterinas**   | x86_64            |           | yes     | [Framekernel]                | General purpose     | ?         | ?             | 42           | ?                       | MPL 2.0                    |
 
 Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 userspace, written in Rust.
 
@@ -54,6 +57,7 @@ Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 us
 [FAT32]: https://github.com/deepaksirone/redox-loader
 [unknown]: https://github.com/scialex/reenix/issues/1
 [MFS]: https://github.com/vinc/moros/blob/trunk/doc/filesystem.md
+[Framekernel]: https://asterinas.github.io/book/kernel/the-framekernel-architecture.html
 
 [^1]: Theseus is a safe-language OS that runs all components within a [Single Address Space (SAS)](https://en.wikipedia.org/wiki/Single_address_space_operating_system) and Single Privilege Level (SPL).
 
