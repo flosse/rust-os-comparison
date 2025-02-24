@@ -24,6 +24,7 @@ It comes with a window manager as well as basic applications like an
 - **MOROS**             ([repository](https://github.com/vinc/moros) / [homepage](http://moros.cc/))
 - **Fexlix OS**         ([repository](https://github.com/mrgian/felix))
 - **Aero**              ([repository](https://github.com/Andy-Python-Programmer/aero))
+- **Asterinas**         ([repository](https://github.com/asterinas/asterina))
 
 
 | Name            | Architectures     | Pure Rust | Active? | Kernel architecture          | Target              | Userpace? | Optional GUI? | Contributors | Filesystem              | License                    |
@@ -44,6 +45,7 @@ It comes with a window manager as well as basic applications like an
 | **Aero**        | x86_64            | ?         | yes     | Monolithic                   | General purpose     | ?         | yes           | 10           | ?                       | GPL                        |
 | **Embassy**     | many              | yes       | yes     | embedded framework           | embedded            | n/a       | no            | 388          | ?                       | APL2 / MIT / CC 4.0        |
 | **Hubris**      | many              | yes       | yes     | message passing kernel       | embedded            | n/a       | no            | 50           | ?                       | MPL 2.0                    |
+| **Asterinas**   | x86_64            |           | yes     | [Framekernel]                | General purpose     | ?         | ?             | 42           | ?                       | MPL 2.0                    |
 
 Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 userspace, written in Rust.
 
@@ -53,6 +55,7 @@ Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 us
 [FAT32]: https://github.com/deepaksirone/redox-loader
 [unknown]: https://github.com/scialex/reenix/issues/1
 [MFS]: https://github.com/vinc/moros/blob/trunk/doc/filesystem.md
+[Framekernel]: https://asterinas.github.io/book/kernel/the-framekernel-architecture.html
 
 [^1]: Theseus is a safe-language OS that runs all components within a [Single Address Space (SAS)](https://en.wikipedia.org/wiki/Single_address_space_operating_system) and Single Privilege Level (SPL).
 
