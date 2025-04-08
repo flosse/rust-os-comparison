@@ -49,7 +49,7 @@ It comes with a window manager as well as basic applications like an
 | **Hubris**      | many              | yes       | yes     | message passing kernel       | embedded            | n/a       | no            | 50           | ?                       | MPL 2.0                    |
 | **Asterinas**   | x86_64            |           | yes     | [Framekernel]                | General purpose     | ?         | ?             | 42           | ?                       | MPL 2.0                    |
 
-Also worth noting: [Robigalia](https://github.com/robigalia/sel4-sys), a sel4 userspace, written in Rust.
+Also worth noting: [Robigalia](https://gitlab.com/robigalia/sel4), a sel4 userspace, written in Rust.
 
 [Brown's CS167/9]: http://cs.brown.edu/courses/cs167/
 [ZFS]: https://github.com/redox-os/zfs
