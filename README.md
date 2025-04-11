@@ -32,7 +32,7 @@ It comes with a window manager as well as basic applications like an
 |-----------------|-------------------|-----------|---------|------------------------------|---------------------|-----------|---------------|--------------|-------------------------|----------------------------|
 | **Redox**       | x86 and x86_64    | yes       | yes     | Microkernel                  | General purpose     | yes       | yes           | 60           | [ZFS]/[RedoxFS]/[FAT32] | MIT                        |
 | **Theseus OS**  | x86_64, ARM WIP   | yes       | yes     | Safe-language SAS/SPL OS[^1] | General + Embedded  | N/A       | yes           | 25           | Custom/FAT32            | MIT                        |
-| **Tock**        | Cortex M          |           | yes     |                              |                     |           | no            | 40           |                         | APL 2 / MIT                |
+| **Tock**        | Cortex-M, RISC-V, x86 | yes   | yes     | Safe-language SAS/SPL kernel with userspace | embedded  | yes  | no            | 264          |                         | APL 2 / MIT                |
 | **intermezzOS** | x86_64            | no        | yes     | ?                            | PoC                 | no        | no            | 18           | no                      | APL 2 / MIT                |
 | **RustOS**      | i386              | ?         | yes     | None                         | PoC                 | no        | no            | 10           | no                      | APL 2 / MIT                |
 | **rustboot**    | i386              | ?         | no      | None                         | PoC                 | no        | no            | 8            | no                      | MIT                        |
