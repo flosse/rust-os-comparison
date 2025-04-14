@@ -13,6 +13,7 @@ It comes with a window manager as well as basic applications like an
 - **Theseus OS**        ([repository](https://github.com/theseus-os/Theseus) / [homepage](https://www.theseus-os.com/))
 - **Tock**              ([repository](https://github.com/helena-project/tock) / [homepage](http://www.tockos.org/))
 - **intermezzOS**       ([repository](https://github.com/intermezzos/kernel) / [homepage](http://intermezzos.github.io/))
+- **MARMOS**            ([repository](https://github.com/gianndev/marmos))
 - **reenix**            ([repository](https://github.com/scialex/reenix))
 - **rustboot**          ([repository](https://github.com/charliesome/rustboot))
 - **RustOS**            ([repository](https://github.com/ryanra/RustOS))
@@ -34,6 +35,7 @@ It comes with a window manager as well as basic applications like an
 | **Theseus OS**  | x86_64, ARM WIP   | yes       | yes     | Safe-language SAS/SPL OS[^1] | General + Embedded  | N/A       | yes           | 25           | Custom/FAT32            | MIT                        |
 | **Tock**        | Cortex-M, RISC-V, x86 | yes   | yes     | Safe-language SAS/SPL kernel with userspace | embedded  | yes  | no            | 264          |                         | APL 2 / MIT                |
 | **intermezzOS** | x86_64            | no        | yes     | ?                            | PoC                 | no        | no            | 18           | no                      | APL 2 / MIT                |
+| **MARMOS**      | x86_64            | yes       | yes     | Monolithic                   | General purpose     | limited   | no            | 1            | MARMOS_FS               | GPL 3                      |
 | **RustOS**      | i386              | ?         | yes     | None                         | PoC                 | no        | no            | 10           | no                      | APL 2 / MIT                |
 | **rustboot**    | i386              | ?         | no      | None                         | PoC                 | no        | no            | 8            | no                      | MIT                        |
 | **bkernel**     | ARM               | yes       | yes     | ?                            | Embedded devices    | no        | no            | 4            | ?                       | GPL with linking exception |
