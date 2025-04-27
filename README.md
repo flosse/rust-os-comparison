@@ -9,7 +9,7 @@ It comes with a window manager as well as basic applications like an
 [editor](https://github.com/redox-os/sodium) and a file manager.
 **Theseus** is approaching maturity with the ability to execute legacy components in a WASM sandboxed environment.
 
-- **Redox**             ([repository](https://github.com/redox-os/redox) / [homepage](http://www.redox-os.org/))
+- **Redox**             ([repository](https://gitlab.redox-os.org/redox-os/redox/) / [homepage](https://www.redox-os.org/))
 - **Theseus OS**        ([repository](https://github.com/theseus-os/Theseus) / [homepage](https://www.theseus-os.com/))
 - **Tock**              ([repository](https://github.com/helena-project/tock) / [homepage](http://www.tockos.org/))
 - **intermezzOS**       ([repository](https://github.com/intermezzos/kernel) / [homepage](http://intermezzos.github.io/))
@@ -30,7 +30,7 @@ It comes with a window manager as well as basic applications like an
 
 | Name            | Architectures     | Pure Rust | Active? | Kernel architecture          | Target              | Userpace? | Optional GUI? | Contributors | Filesystem              | License                    |
 |-----------------|-------------------|-----------|---------|------------------------------|---------------------|-----------|---------------|--------------|-------------------------|----------------------------|
-| **Redox**       | x86 and x86_64    | yes       | yes     | Microkernel                  | General purpose     | yes       | yes           | 60           | [ZFS]/[RedoxFS]/[FAT32] | MIT                        |
+| **Redox**       | x86, x86_64, ARM64 and RISC-V    | yes       | yes     | Microkernel                  | General purpose     | yes       | yes           | 60           | [RedoxFS]/[FAT32]/[ramfs] | MIT                        |
 | **Theseus OS**  | x86_64, ARM WIP   | yes       | yes     | Safe-language SAS/SPL OS[^1] | General + Embedded  | N/A       | yes           | 25           | Custom/FAT32            | MIT                        |
 | **Tock**        | Cortex-M, RISC-V, x86 | yes   | yes     | Safe-language SAS/SPL kernel with userspace | embedded  | yes  | no            | 264          |                         | APL 2 / MIT                |
 | **intermezzOS** | x86_64            | no        | yes     | ?                            | PoC                 | no        | no            | 18           | no                      | APL 2 / MIT                |
@@ -52,9 +52,9 @@ It comes with a window manager as well as basic applications like an
 Also worth noting: [Robigalia](https://gitlab.com/robigalia/sel4), a sel4 userspace, written in Rust.
 
 [Brown's CS167/9]: http://cs.brown.edu/courses/cs167/
-[ZFS]: https://github.com/redox-os/zfs
 [RedoxFS]: https://github.com/redox-os/redoxfs
-[FAT32]: https://github.com/deepaksirone/redox-loader
+[FAT32]: https://gitlab.redox-os.org/redox-os/redox-loader
+[ramfs]: https://gitlab.redox-os.org/redox-os/base/-/tree/main/ramfs?ref_type=heads
 [unknown]: https://github.com/scialex/reenix/issues/1
 [MFS]: https://github.com/vinc/moros/blob/trunk/doc/filesystem.md
 [Framekernel]: https://asterinas.github.io/book/kernel/the-framekernel-architecture.html
