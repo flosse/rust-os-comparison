@@ -13,10 +13,8 @@ It comes with a window manager as well as basic applications like an
 - **Theseus OS**        ([repository](https://github.com/theseus-os/Theseus) / [homepage](https://www.theseus-os.com/))
 - **Tock**              ([repository](https://github.com/helena-project/tock) / [homepage](http://www.tockos.org/))
 - **intermezzOS**       ([repository](https://github.com/intermezzos/kernel) / [homepage](http://intermezzos.github.io/))
-- **ParvaOS**
-([repository](https://github.com/gianndev/ParvaOS))
-- **reenix**
-([repository](https://github.com/scialex/reenix))
+- **ParvaOS**           ([repository](https://github.com/gianndev/ParvaOS))
+- **reenix**            ([repository](https://github.com/scialex/reenix))
 - **rustboot**          ([repository](https://github.com/charliesome/rustboot))
 - **RustOS**            ([repository](https://github.com/ryanra/RustOS))
 - **QuiltOS**           ([repository](https://github.com/QuiltOS/QuiltOS))
