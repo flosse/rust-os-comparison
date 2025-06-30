@@ -27,6 +27,7 @@ It comes with a window manager as well as basic applications like an
 - **Aero**              ([repository](https://github.com/Andy-Python-Programmer/aero))
 - **Hermit**            ([repository](https://github.com/hermitcore/rusty-hermit))
 - **Asterinas**         ([repository](https://github.com/asterinas/asterina))
+- **Twilight OS**       ([repository](https://github.com/akashKarmakar02/twilight_os))
 
 
 | Name            | Architectures     | Pure Rust | Active? | Kernel architecture          | Target              | Userpace? | Optional GUI? | Contributors | Filesystem              | License                    |
@@ -50,6 +51,7 @@ It comes with a window manager as well as basic applications like an
 | **Embassy**     | many              | yes       | yes     | embedded framework           | embedded            | n/a       | no            | 388          | ?                       | APL2 / MIT / CC 4.0        |
 | **Hubris**      | many              | yes       | yes     | message passing kernel       | embedded            | n/a       | no            | 50           | ?                       | MPL 2.0                    |
 | **Asterinas**   | x86_64            |           | yes     | [Framekernel]                | General purpose     | ?         | ?             | 42           | ?                       | MPL 2.0                    |
+| **Twilight OS** | x86_64            | yes       | yes     | Monolithic                   | General + Learning  | in progress      | no             | 2           | MinixFS V2                 | BSD-3 Clause                    |
 
 Also worth noting: [Robigalia](https://gitlab.com/robigalia/sel4), a sel4 userspace, written in Rust.
 
