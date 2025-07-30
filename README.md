@@ -29,29 +29,28 @@ It comes with a window manager as well as basic applications like an
 - **Asterinas**         ([repository](https://github.com/asterinas/asterina))
 - **Twilight OS**       ([repository](https://github.com/akashKarmakar02/twilight_os))
 
-
-| Name            | Architectures     | Pure Rust | Active? | Kernel architecture          | Target              | Userpace? | Optional GUI? | Contributors | Filesystem              | License                    |
-|-----------------|-------------------|-----------|---------|------------------------------|---------------------|-----------|---------------|--------------|-------------------------|----------------------------|
-| **Redox**       | x86, x86_64, ARM64 and RISC-V    | yes       | yes     | Microkernel                  | General purpose     | yes       | yes           | 60           | [RedoxFS]/[FAT32]/[ramfs] | MIT                        |
-| **Theseus OS**  | x86_64, ARM WIP   | yes       | yes     | Safe-language SAS/SPL OS[^1] | General + Embedded  | N/A       | yes           | 25           | Custom/FAT32            | MIT                        |
-| **Tock**        | Cortex-M, RISC-V, x86 | yes   | yes     | Safe-language SAS/SPL kernel with userspace | embedded  | yes  | no            | 264          |                         | APL 2 / MIT                |
-| **intermezzOS** | x86_64            | no        | yes     | ?                            | PoC                 | no        | no            | 18           | no                      | APL 2 / MIT                |
-| **ParvaOS**     | x86_64            | yes | yes | Monolithic | General purpose | no | yes | 1 | ParvaFS | GPL-3.0
-| **RustOS**      | i386              | ?         | yes     | None                         | PoC                 | no        | no            | 10           | no                      | APL 2 / MIT                |
-| **rustboot**    | i386              | ?         | no      | None                         | PoC                 | no        | no            | 8            | no                      | MIT                        |
-| **bkernel**     | ARM               | yes       | yes     | ?                            | Embedded devices    | no        | no            | 4            | ?                       | GPL with linking exception |
-| **SOS**         | x86_64            | yes       | yes     | Microkernel                  | PoC                 | no        | no            | 3            | ?                       | MIT                        |
-| **reenix**      | [Brown's CS167/9] | no        | no      | Monolithic (current state)   | PoC                 | no        | no            | 3            | ?                       | [unknown]                  |
-| **Quasar**      | x86_64            | ?         | no      | ?                            | ?                   | no        | no            | 2            | ?                       | ?                          |
-| **Tifflin**     | x86_64/amd64      | almost    | yes     | Monolithic                   | ?                   | ?         | yes           | 1            | ISO9660                 | 2-Clause-BSD               |
-| **MOROS**       | x86_64            | yes       | yes     | Monolithic                   | General purpose     | limited   | no            | 1            | [MFS]                   | MIT                        |
-| **Felix OS**    | x86_64            | yes       | yes     | ?                            | General purpose     | ?         | no            | 3            | [FAT16]  Read Only      | MIT                        |
-| **Aero**        | x86_64            | ?         | yes     | Monolithic                   | General purpose     | ?         | yes           | 10           | ?                       | GPL                        |
-| **Hermit**      | x86_64, aarch64   | yes       | yes     | Unikernel                    | Cloud and HPC       | no        | no            | >30          | virtiofs                | Apache, BSD                |
-| **Embassy**     | many              | yes       | yes     | embedded framework           | embedded            | n/a       | no            | 388          | ?                       | APL2 / MIT / CC 4.0        |
-| **Hubris**      | many              | yes       | yes     | message passing kernel       | embedded            | n/a       | no            | 50           | ?                       | MPL 2.0                    |
-| **Asterinas**   | x86_64            |           | yes     | [Framekernel]                | General purpose     | ?         | ?             | 42           | ?                       | MPL 2.0                    |
-| **Twilight OS** | x86_64            | yes       | yes     | Monolithic                   | General + Learning  | in progress      | no             | 2           | MinixFS V2                 | BSD-3 Clause                    |
+| Name            | Architectures     | Pure Rust | Active? | Kernel architecture          | Target              | Userpace? | Optional GUI? | Contributors | Filesystem              | Network stack              | License                    |
+|-----------------|-------------------|-----------|---------|------------------------------|---------------------|-----------|---------------|--------------|-------------------------|----------------------------|----------------------------|
+| **Redox**       | x86, x86_64, ARM64 and RISC-V    | yes       | yes     | Microkernel   | General purpose     | yes       | yes           | 60         | [RedoxFS]/[FAT32]/[ramfs] | smoltcp                    | MIT                        |
+| **Theseus OS**  | x86_64, ARM WIP   | yes       | yes     | Safe-language SAS/SPL OS[^1] | General + Embedded  | N/A       | yes           | 25           | Custom/FAT32            | smoltcp                    | MIT                        |
+| **Tock**        | Cortex-M, RISC-V, x86 | yes   | yes     | Safe-language SAS/SPL kernel with userspace | embedded  | yes  | no            | 264          |                         | custom                     | APL 2 / MIT                |
+| **intermezzOS** | x86_64            | no        | no      | ?                            | PoC                 | no        | no            | 18           | no                      | ?                          | APL 2 / MIT                |
+| **ParvaOS**     | x86_64            | yes       | yes     | Monolithic                   | General purpose     | no        | yes           | 1            | ParvaFS                 | ?                          | GPL-3.0                    |
+| **RustOS**      | i386              | ?         | no      | None                         | PoC                 | no        | no            | 10           | no                      | None                       | APL 2 / MIT                |
+| **rustboot**    | i386              | ?         | no      | None                         | PoC                 | no        | no            | 8            | no                      | None                       | MIT                        |
+| **bkernel**     | ARM               | yes       | no      | ?                            | Embedded devices    | no        | no            | 4            | ?                       | smoltcp                    | GPL with linking exception |
+| **SOS**         | x86_64            | yes       | no      | Microkernel                  | PoC                 | no        | no            | 3            | ?                       | None                       | MIT                        |
+| **reenix**      | [Brown's CS167/9] | no        | no      | Monolithic (current state)   | PoC                 | no        | no            | 3            | ?                       | None                       | [unknown]                  |
+| **Quasar**      | x86_64            | ?         | no      | ?                            | ?                   | no        | no            | 2            | ?                       | None                       | ?                          |
+| **Tifflin**     | x86_64/amd64      | almost    | yes     | Monolithic                   | ?                   | ?         | yes           | 1            | ISO9660                 | ?                          | 2-Clause-BSD               |
+| **MOROS**       | x86_64            | yes       | yes     | Monolithic                   | General purpose     | limited   | no            | 1            | [MFS]                   | smoltcp                    | MIT                        |
+| **Felix OS**    | x86_64            | yes       | yes     | ?                            | General purpose     | ?         | no            | 3            | [FAT16]  Read Only      | None                       | MIT                        |
+| **Aero**        | x86_64            | ?         | yes     | Monolithic                   | General purpose     | ?         | yes           | 10           | ?                       | ?                          | GPL                        |
+| **Hermit**      | x86_64, aarch64   | yes       | yes     | Unikernel                    | Cloud and HPC       | no        | no            | >30          | virtiofs                | smoltcp                    | Apache, BSD                |
+| **Embassy**     | many              | yes       | yes     | embedded framework           | embedded            | n/a       | no            | 388          | ?                       | smoltcp                    | APL2 / MIT / CC 4.0        |
+| **Hubris**      | many              | yes       | yes     | message passing kernel       | embedded            | n/a       | no            | 50           | ?                       | smoltcp                    | MPL 2.0                    |
+| **Asterinas**   | x86_64            |           | yes     | [Framekernel]                | General purpose     | ?         | ?             | 42           | ?                       | smoltcp                    | MPL 2.0                    |
+| **Twilight OS** | x86_64            | yes       | yes     | Monolithic                   | General + Learning  | in progress      | no     | 2            | MinixFS V2              | smoltcp                    | BSD-3 Clause               |
 
 Also worth noting: [Robigalia](https://gitlab.com/robigalia/sel4), a sel4 userspace, written in Rust.
 
