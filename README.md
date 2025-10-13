@@ -51,7 +51,7 @@ It comes with a window manager as well as basic applications like an
 | **Embassy**     | many              | yes       | yes     | embedded framework           | embedded            | n/a       | no            | 388          | ?                       | smoltcp                    | APL2 / MIT / CC 4.0        |
 | **Hubris**      | many              | yes       | yes     | message passing kernel       | embedded            | n/a       | no            | 50           | ?                       | smoltcp                    | MPL 2.0                    |
 | **Asterinas**   | x86_64            |           | yes     | [Framekernel]                | General purpose     | ?         | ?             | 42           | ?                       | smoltcp                    | MPL 2.0                    |
-| **Twilight OS** | x86_64            | yes       | yes     | Monolithic                   | General + Learning  | in progress      | no     | 2            | MinixFS V2              | smoltcp                    | BSD-3 Clause               |
+| **Twilight OS** | x86_64            | yes       | yes     | Monolithic                   | General + Learning  | yes      | limited     | 2            | MinixFS V3              | smoltcp                    | BSD-3 Clause               |
 | **Proka OS** | x86_64            | yes       | yes     | ?                         | General + Learning  | in progress      | yes    | 2            | ?              | ?                    | MIT              |
 
 Also worth noting: [Robigalia](https://gitlab.com/robigalia/sel4), a sel4 userspace, written in Rust.
