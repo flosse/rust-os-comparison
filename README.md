@@ -29,6 +29,7 @@ It comes with a window manager as well as basic applications like an
 - **Asterinas**         ([repository](https://github.com/asterinas/asterina))
 - **Twilight OS**       ([repository](https://github.com/akashKarmakar02/twilight_os))
 - **Proka OS**       ([repository](https://github.com/RainSTR-Studio/proka-kernel))
+- **Qunix**            ([repository](https://github.com/MohammadMuzamil23/Qunix-Operating-System))
 
 | Name            | Architectures     | Pure Rust | Active? | Kernel architecture          | Target              | Userpace? | Optional GUI? | Contributors | Filesystem              | Network stack              | License                    |
 |-----------------|-------------------|-----------|---------|------------------------------|---------------------|-----------|---------------|--------------|-------------------------|----------------------------|----------------------------|
@@ -53,6 +54,7 @@ It comes with a window manager as well as basic applications like an
 | **Asterinas**   | x86_64            |           | yes     | [Framekernel]                | General purpose     | ?         | ?             | 42           | ?                       | smoltcp                    | MPL 2.0                    |
 | **Twilight OS** | x86_64            | yes       | yes     | Monolithic                   | General + Learning  | yes      | limited     | 2            | MinixFS V3              | smoltcp                    | BSD-3 Clause               |
 | **Proka OS** | x86_64            | yes       | yes     | ?                         | General + Learning  | in progress      | yes    | 2            | ?              | ?                    | MIT              |
+| **Qunix**      | x86_64            | yes       | yes     | Monolithic                 | General purpose     | yes       | no            | 3            | ext4/FAT32/tmpfs/devfs/procfs | custom                     | MIT                        |
 
 Also worth noting: [Robigalia](https://gitlab.com/robigalia/sel4), a sel4 userspace, written in Rust.
 
