@@ -26,7 +26,7 @@ It comes with a window manager as well as basic applications like an
 - **Fexlix OS**         ([repository](https://github.com/mrgian/felix))
 - **Aero**              ([repository](https://github.com/Andy-Python-Programmer/aero))
 - **Hermit**            ([repository](https://github.com/hermitcore/rusty-hermit))
-- **Asterinas**         ([repository](https://github.com/asterinas/asterina))
+- **Asterinas**         ([repository](https://github.com/asterinas/asterinas))
 - **Twilight OS**       ([repository](https://github.com/akashKarmakar02/twilight_os))
 - **Proka OS**       ([repository](https://github.com/RainSTR-Studio/proka-kernel))
 
